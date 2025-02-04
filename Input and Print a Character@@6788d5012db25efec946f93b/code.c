@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    character :
-    sacnf("%s" , &char);
-    printf("You entered: %s\n" , char);
+    char ch :
+    sacnf("%c" , &ch);
+    printf("You entered: %c\n" , char);
     return 0;
 }
