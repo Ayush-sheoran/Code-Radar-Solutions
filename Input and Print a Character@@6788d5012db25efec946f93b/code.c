@@ -2,7 +2,7 @@
 
 int main() {
     char ch ;
-    sacnf("%c" , &ch);
-    printf("You entered: %c\n" , char);
+    sacnf(" %c" , &ch);
+    printf("You entered: %c\n" , ch);
     return 0;
 }
