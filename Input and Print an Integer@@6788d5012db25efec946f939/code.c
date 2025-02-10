@@ -5,6 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+    printf("write a simgle integer");
+    scanf("%s" & integer);
+    printf("you entered:,integer")
     return 0;
 }
