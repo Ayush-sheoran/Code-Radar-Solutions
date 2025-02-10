@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     printf("write a simgle integer");
-    scanf("%s" & integer);
+    scanf("%d" & integer);
     printf("you entered:,integer");
     return 0;
 }
