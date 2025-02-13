@@ -8,5 +8,5 @@ int main(){
     printf("Name: %s\n",name );
     printf("Age: %d\n",age );
     printf("Hobby: %s\n",hobby );
-    return 0 :
+    return 0 ;
 }
