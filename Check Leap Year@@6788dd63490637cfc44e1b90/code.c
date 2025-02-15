@@ -5,7 +5,7 @@ int main(){
     if((a%4 == 0)||(a%400 == 0)){
         printf("Leap Year");
     }else if(a==1900){
-        printf("Leat Year");
+        printf(" Not a Leat Year");
     } else{
         printf("Not a Leap Year");
     }
