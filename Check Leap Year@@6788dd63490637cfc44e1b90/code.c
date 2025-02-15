@@ -3,9 +3,9 @@ int main(){
     int a;
     scanf("%d ",&a);
     if(a==365){
-        printf("Leap year");
+        printf("Leap Year");
     }else{
-        printf("Not a leap year");
+        printf("Not a Leap Year");
     }
     return 0;
 }
