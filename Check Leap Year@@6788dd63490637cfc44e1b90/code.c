@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,;
+    int a;
     scanf("%d ",&a);
     if(a==365){
         printf("Leap year");
