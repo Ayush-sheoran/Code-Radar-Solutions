@@ -1,14 +1,20 @@
 #include<stdio.h>
+#include<ctype.h>
+
 int main(){
-    int an;
-    scanf("%d",&an);
-    if(an==a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z){
-        printf("lowercase");
-    }else if(an==1,2,3,4,5,6,7,8,9,0){
-        printf("Not an alphabet");
+    char an;
+    scanf("%c", &an); 
+    if (an >= 'a' && an <= 'z') {
+        printf("lowercase\n");
     }
-    else{
-        printf("Uppercase");
+    else if (an >= '0' && an <= '9') {
+        printf("Not an alphabet\n");
     }
+    else if (an >= 'A' && an <= 'Z') {
+        printf("Uppercase\n");
+    } else {
+        printf("Invalid input\n");
+    }
+
     return 0;
 }
